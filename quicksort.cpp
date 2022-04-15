@@ -41,6 +41,6 @@ void quicksort(int arr[], int left, int right){
     quicksort(arr, pivot+1, right);
 }
 
-void driver(int arr[],int arrLength){
+void quicksort(int arr[],int arrLength){
     quicksort(arr, 0, arrLength-1);
 }
